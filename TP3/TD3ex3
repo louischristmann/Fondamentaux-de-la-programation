@@ -1,0 +1,9 @@
+import random
+
+def tirer_valeur_aleatoire():
+    valeur_aleatoire = random.randint(0, 100)
+    return valeur_aleatoire
+
+resultat = tirer_valeur_aleatoire()
+
+print("La valeur aléatoire est :", resultat)
